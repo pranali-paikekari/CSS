@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selector</title>
+    <style>
+      /* universal element * */
+      * {
+        text-align: center;
+        background-color: bisque;
+      }
+
+      /* element selector */
+      h4 {
+        background-color: red;
+      }
+      /* class selector-target an element with a specific valur - miltiple class section */
+      .c {
+        background-color: yellow;
+      }
+      .h {
+        font-style: oblique;
+      }
+
+      /* id selector */
+      #w {
+        color: blueviolet;
+      }
+
+      /* attribute selector-[] target an element base on specific attribute */
+      ul[type="disc"] {
+        color: blue;
+        font-style: italic;
+      }
+      [class|="top"] {
+        background-color: yellow;
+      }
+
+      /* group selector(,)-apply same style multiple element */
+      /* h1,p{
+    color: red;
+   } */
+
+      /* descedent selector[space] - to apply style all the tags which are used to specific tag  */
+      /* div p {
+        color: blueviolet;
+      } */
+
+      /* child selector[>] select all elemet that are the childern of a specifird -element */
+      div > p {
+        background-color: chocolate;
+      }
+
+      /* pseudo element[::]  */
+      p::first-line {
+        color: sienna;
+        font-variant: small-caps;
+      }
+      h6.intro::first-letter {
+        color: blue;
+      }
+      ::marker {
+        color: blue;
+        
+      }
+      ::selection{
+        color: red;
+        background: yellow;      }
+    </style>
+  </head>
+  <body>
+    <h4>I am a div</h4>
+    <p class="c">welcome</p>
+    <h1 class="h">welcome</h1>
+    <h2 id="w">welcome</h2>
+    <h3>welcome</h3>
+
+    <ul type="disc">
+      <li>sweety</li>
+      <li>kranti</li>
+      <li>vaishnavi</li>
+    </ul>
+
+    <h1 class="top-header">welcome</h1>
+    <p class="top-">hello world</p>
+    <p class="topcontenet">are u learning css</p>
+    <hr />
+    <!-- <div>
+      <p>para 1 is a div</p>
+      <p>para 2 is a div</p>
+      <p>para 3 is a div</p>
+      <p>para 4 is a div</p>
+    </div>
+    <p>para 5 is not a div</p>
+    <p>para 6 is not a div</p> -->
+
+    <div>
+      <p>para 1 is a div</p>
+      <h3>heyy</h3>
+      <p>para 2 is a div</p>
+      <p>para 3 is a div</p>
+      <h2>hello</h2>
+    </div>
+    <p>i am not div</p>
+
+    <hr />
+    <p>
+      A C program contains one or more functions, where a function is defined as
+      a group of statements that perform a well-defined task. Figure below shows
+      the structure of a C program. The statements in a function are written in
+      a logical sequence to perform a specific task. The main() function is the
+      most important function and is a part of every C program. Rather, the
+      execution of a C program begins with this function.
+    </p>
+    <h6>
+      The statements in a function are written in a logical sequence to perform
+      a specific task.
+    </h6>
+    <h6 class="intro">
+      The statements in a function are written in a logical sequence to perform
+      a specific task.
+    </h6>
+    <ul>
+      <li>coffe</li>
+      <li>milk</li>
+      <li>tea</li>
+    </ul>
+    <ol>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ol>
+    <h5>select some text on this page</h5>
+    
+  </body>
+</html>

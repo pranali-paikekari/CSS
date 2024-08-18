@@ -1,0 +1,19 @@
+ul.a {
+  list-style-type: square;
+}
+ul.b {
+  list-style-type: circle;
+}
+ol.c {
+  list-style-type: upper-alpha;
+}
+ol.d {
+  list-style-type: lower-roman;
+}
+ul.a {
+  list-style-position: outside;
+}
+ul.b
+{
+    list-style-position: inside;
+}

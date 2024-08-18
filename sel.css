@@ -1,0 +1,40 @@
+* {
+  background-color: blanchedalmond;
+}
+
+h1,
+h2 {
+  color: brown;
+  text-decoration-line: line-through;
+  text-decoration-color: aqua;
+}
+p{
+
+  width: 500;
+  text-align: right;
+}
+.q {
+  text-decoration: dashed;
+  text-transform:uppercase;
+  text-align: center;
+}
+.w {
+  text-align: justify;
+  color: blueviolet;
+}
+ol {
+  color: deeppink;
+  text-align: left;
+  font-weight: bolder;
+}
+ul {
+  font-weight: 900;
+  color: red;
+}
+p::selection {
+  color: red;
+  background: yellow;
+}
+a {
+  color: violet;
+}

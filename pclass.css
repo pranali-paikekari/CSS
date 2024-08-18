@@ -1,0 +1,40 @@
+/* p:first-child{
+    color: blueviolet;
+} */
+a:link{
+    color: brown;
+}
+a:visited{
+    text-decoration: underline;
+    color: chartreuse;
+}
+a:hover{
+    color: red;
+}
+ol :nth-last-child(2){
+    background-color: blue;
+}
+
+table {
+   margin: 30px;
+   border-collapse: collapse;
+}
+table tr{
+    border-bottom: 1px solid ;
+}
+table tr:nth-last-child(3) td{
+    background-color: darkgrey;
+}
+
+p:first-of-type{
+    background-color: yellow;
+}
+p:last-of-type{
+    background-color: hotpink;
+}
+ 
+h2:only-of-type{
+    color: tomato;
+    background-color: aqua;
+}
+

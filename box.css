@@ -1,0 +1,41 @@
+
+div{
+    width: 200px;
+    height: 500px;
+    margin:100px;
+    padding: 20px;
+    border-style: solid;
+    background-color: aqua;
+    box-sizing: border-box;
+    max-height: 300px;
+    box-shadow: 2px 2px 5px 10px rgb(138,136,136);
+    
+
+}
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background:lime;
+
+}
+p{
+    padding-left: 75px;
+    padding-right: 100px;
+    background: cadetblue;
+}
+
+::selection{
+    color: yellow;
+    background-color: red;
+}
+::first-line{
+    color: blueviolet;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+:
+*{
+    background-color: blanchedalmond
+    ;
+}

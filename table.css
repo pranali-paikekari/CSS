@@ -1,0 +1,24 @@
+*{
+    background-color;
+}
+/* border */
+table,th,td
+{
+border: 1px ridge #ff0000;
+}
+table{
+    border-collapse: separate;
+}
+/* table layoutr */
+ .fixed{
+    table-layout: fixed;
+}
+td{
+    height: 50px;
+vertical-align:bottom;}
+table.empty.hide{
+    empty-cells: hide;
+}
+tbody tr:nth-child(even){
+    background-color: blue;
+}
